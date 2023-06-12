@@ -33,5 +33,6 @@ public class Calculadora {
         } else {
             System.out.println("Escolha uma das opções válidas");
         }
+        scanner.close();
     }
 }
