@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class exc5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Input first number:");
+        System.out.print("Input first number:");
         int numberOne = scanner.nextInt();
-        System.out.println("Input second number:");
+        System.out.print("Input second number:");
         int numberTwo = scanner.nextInt();
         int produto = numberOne * numberTwo;
         System.out.println(numberOne + " x " + numberTwo + " = " + produto);

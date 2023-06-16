@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class exc6 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Input first number:");
+        System.out.print("Input first number:");
         int n = scanner.nextInt();
-        System.out.println("Input second number:");
+        System.out.print("Input second number:");
         int n2 = scanner.nextInt();
         int soma = n + n2;
         int sub = n - n2;
