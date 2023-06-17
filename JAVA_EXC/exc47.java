@@ -4,7 +4,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 
-public class exc46 {
+public class exc47 {
     public static void main(String[] args) {
         LocalDateTime now = LocalDateTime.now();
 
