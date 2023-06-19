@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class exc3VETOR {
     public static void main(String [] args) {
-        double[] notas = new double[4];
+        double[] notas = {1,2,3,4};
         Scanner scanner = new Scanner(System.in);
 
         for (int i = 0; i < 4; i++) {
