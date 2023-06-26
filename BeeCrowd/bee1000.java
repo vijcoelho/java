@@ -1,4 +1,4 @@
-package BeeCrownd;
+package BeeCrowd;
 
 public class bee1000 {
     public static void main(String[] args) {

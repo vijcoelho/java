@@ -1,4 +1,4 @@
-package BeeCrownd;
+package BeeCrowd;
 
 import java.util.Arrays;
 import java.util.Scanner;

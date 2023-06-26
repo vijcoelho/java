@@ -1,19 +1,16 @@
-package BeeCrownd;
+package BeeCrowd;
 
 import java.util.Scanner;
 
-public class bee1044 {
+public class bee1001 {
+    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+        
         int a = scanner.nextInt();
         int b = scanner.nextInt();
-
-        if(a % b == 0 || b % a == 0) {
-            System.out.println("Sao multiplos");
-        } else {
-            System.out.println("Nao sao multiplos");
-        }
+        int soma = a + b;
+        System.out.println("x = "+ soma);
 
         scanner.close();
     }
