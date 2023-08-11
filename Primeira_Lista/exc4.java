@@ -1,4 +1,4 @@
-package TP2;
+package Primeira_Lista;
 
 import java.util.Scanner;
 

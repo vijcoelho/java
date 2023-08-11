@@ -1,8 +1,8 @@
-package TP2;
+package Primeira_Lista;
 
 import java.util.Scanner;
 
-public class exc3 {
+public class exc2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -10,7 +10,7 @@ public class exc3 {
         String nome = scanner.next();
         int idade = scanner.nextInt();
 
-        String resultado = (idade>=18) ? "pode dirigir" : "não pode dirigir";
+        String resultado = (idade>=16) ? "pode votar" : "não pode votar";
         System.out.println(nome+" "+ resultado);
 
         scanner.close();
