@@ -17,7 +17,7 @@ public class bee1172 {
             }
         }
         for(int i=0; i<10; i++){
-            System.out.print(vetor[i]);
+            System.out.println(vetor[i]);
         }
         scanner.close();
     }
