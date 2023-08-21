@@ -1,0 +1,66 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Encapsulation_class",
+            "request": "launch",
+            "mainClass": "EstudandoClasse.Encapsulation_class",
+            "projectName": "java_c1b766d"
+        },
+        {
+            "type": "java",
+            "name": "Segundo",
+            "request": "launch",
+            "mainClass": "EstudandoClasse.Segundo",
+            "projectName": "java_c1b766d"
+        },
+        {
+            "type": "java",
+            "name": "primeira_classe",
+            "request": "launch",
+            "mainClass": "EstudandoClasse.primeira_classe",
+            "projectName": "java_c1b766d"
+        },
+        {
+            "type": "java",
+            "name": "classe_Metodos",
+            "request": "launch",
+            "mainClass": "EstudandoClasse.classe_Metodos",
+            "projectName": "java_c1b766d"
+        },
+        {
+            "type": "java",
+            "name": "classe_1",
+            "request": "launch",
+            "mainClass": "EstudandoClasse.classe_1",
+            "projectName": "java_c1b766d"
+        },
+        {
+            "type": "lua",
+            "request": "launch",
+            "tag": "normal",
+            "name": "LuaPanda",
+            "description": "通用模式,通常调试项目请选择此模式 | launchVer:3.2.0",
+            "cwd": "${workspaceFolder}",
+            "luaFileExtension": "",
+            "connectionPort": 8818,
+            "stopOnEntry": true,
+            "useCHook": true,
+            "autoPathMode": true
+        },
+        {
+            "type": "lua",
+            "request": "launch",
+            "tag": "independent_file",
+            "name": "LuaPanda-IndependentFile",
+            "description": "独立文件调试模式,使用前请参考文档",
+            "luaPath": "",
+            "packagePath": [],
+            "luaFileExtension": "",
+            "connectionPort": 8820,
+            "stopOnEntry": true,
+            "useCHook": true
+        }
+    ]
+}
