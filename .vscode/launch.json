@@ -3,6 +3,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "bee1172",
+            "request": "launch",
+            "mainClass": "BeeCrowd.bee1172",
+            "projectName": "java_fa20388"
+        },
+        {
+            "type": "java",
+            "name": "bee1154",
+            "request": "launch",
+            "mainClass": "BeeCrowd.bee1154",
+            "projectName": "java_fa20388"
+        },
+        {
+            "type": "java",
+            "name": "bee1114",
+            "request": "launch",
+            "mainClass": "BeeCrowd.bee1114",
+            "projectName": "java_fa20388"
+        },
+        {
+            "type": "java",
+            "name": "bee1113",
+            "request": "launch",
+            "mainClass": "BeeCrowd.bee1113",
+            "projectName": "java_fa20388"
+        },
+        {
+            "type": "java",
+            "name": "bee1101",
+            "request": "launch",
+            "mainClass": "BeeCrowd.bee1101",
+            "projectName": "java_fa20388"
+        },
+        {
+            "type": "java",
+            "name": "bee1095",
+            "request": "launch",
+            "mainClass": "BeeCrowd.bee1095",
+            "projectName": "java_fa20388"
+        },
+        {
+            "type": "java",
+            "name": "bee1080",
+            "request": "launch",
+            "mainClass": "BeeCrowd.bee1080",
+            "projectName": "java_fa20388"
+        },
+        {
+            "type": "java",
             "name": "Enum",
             "request": "launch",
             "mainClass": "EstudandoClasse.Enum",
@@ -84,6 +133,6 @@
             "request": "launch",
             "mainClass": "EstudandoClasse.classe_1",
             "projectName": "java_c1b766d"
-        },
+        }
     ]
 }
