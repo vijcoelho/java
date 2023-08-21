@@ -3,6 +3,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Enum",
+            "request": "launch",
+            "mainClass": "EstudandoClasse.Enum",
+            "projectName": "java_fa20388"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "EstudandoClasse.Main",
+            "projectName": "java_fa20388"
+        },
+        {
+            "type": "java",
+            "name": "Interfaces",
+            "request": "launch",
+            "mainClass": "EstudandoClasse.Interfaces",
+            "projectName": "java_fa20388"
+        },
+        {
+            "type": "java",
+            "name": "Inner_classe",
+            "request": "launch",
+            "mainClass": "EstudandoClasse.Inner_classe",
+            "projectName": "java_fa20388"
+        },
+        {
+            "type": "java",
+            "name": "Veiculo",
+            "request": "launch",
+            "mainClass": "EstudandoClasse.Veiculo",
+            "projectName": "java_fa20388"
+        },
+        {
+            "type": "java",
+            "name": "Inheritance",
+            "request": "launch",
+            "mainClass": "EstudandoClasse.Inheritance",
+            "projectName": "java_fa20388"
+        },
+        {
+            "type": "java",
+            "name": "Packages_API",
+            "request": "launch",
+            "mainClass": "EstudandoClasse.Packages_API",
+            "projectName": "java_fa20388"
+        },
+        {
+            "type": "java",
             "name": "Encapsulation_class",
             "request": "launch",
             "mainClass": "EstudandoClasse.Encapsulation_class",
@@ -36,31 +85,5 @@
             "mainClass": "EstudandoClasse.classe_1",
             "projectName": "java_c1b766d"
         },
-        {
-            "type": "lua",
-            "request": "launch",
-            "tag": "normal",
-            "name": "LuaPanda",
-            "description": "通用模式,通常调试项目请选择此模式 | launchVer:3.2.0",
-            "cwd": "${workspaceFolder}",
-            "luaFileExtension": "",
-            "connectionPort": 8818,
-            "stopOnEntry": true,
-            "useCHook": true,
-            "autoPathMode": true
-        },
-        {
-            "type": "lua",
-            "request": "launch",
-            "tag": "independent_file",
-            "name": "LuaPanda-IndependentFile",
-            "description": "独立文件调试模式,使用前请参考文档",
-            "luaPath": "",
-            "packagePath": [],
-            "luaFileExtension": "",
-            "connectionPort": 8820,
-            "stopOnEntry": true,
-            "useCHook": true
-        }
     ]
 }
