@@ -3,6 +3,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Aula42",
+            "request": "launch",
+            "mainClass": "Aulas_DevDojo.Aula42",
+            "projectName": "java_c1b766d"
+        },
+        {
+            "type": "java",
+            "name": "Aula41_ProfessorTeste",
+            "request": "launch",
+            "mainClass": "Aulas_DevDojo.Aula41_ProfessorTeste",
+            "projectName": "java_c1b766d"
+        },
+        {
+            "type": "java",
+            "name": "Polymorphism",
+            "request": "launch",
+            "mainClass": "EstudandoClasse.Polymorphism",
+            "projectName": "java_c1b766d"
+        },
+        {
+            "type": "java",
+            "name": "Animal",
+            "request": "launch",
+            "mainClass": "EstudandoClasse.Animal",
+            "projectName": "java_c1b766d"
+        },
+        {
+            "type": "java",
+            "name": "Aula37",
+            "request": "launch",
+            "mainClass": "Aulas_DevDojo.Aula37",
+            "projectName": "java_c1b766d"
+        },
+        {
+            "type": "java",
+            "name": "Aula36",
+            "request": "launch",
+            "mainClass": "Aulas_DevDojo.Aula36",
+            "projectName": "java_c1b766d"
+        },
+        {
+            "type": "java",
+            "name": "Aula35",
+            "request": "launch",
+            "mainClass": "Aulas_DevDojo.Aula35",
+            "projectName": "java_c1b766d"
+        },
+        {
+            "type": "java",
+            "name": "Aula31",
+            "request": "launch",
+            "mainClass": "Aulas_DevDojo.Aula31",
+            "projectName": "java_c1b766d"
+        },
+        {
+            "type": "java",
+            "name": "Aula22",
+            "request": "launch",
+            "mainClass": "Aulas_DevDojo.Aula22",
+            "projectName": "java_c1b766d"
+        },
+        {
+            "type": "java",
             "name": "HashMap__",
             "request": "launch",
             "mainClass": "EstudandoClasse.HashMap__",
