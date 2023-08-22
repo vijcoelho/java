@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "HashMap__",
+            "request": "launch",
+            "mainClass": "EstudandoClasse.HashMap__",
+            "projectName": "java_fa20388"
+        },
+        {
+            "type": "java",
+            "name": "HashMap",
+            "request": "launch",
+            "mainClass": "EstudandoClasse.HashMap",
+            "projectName": "java_fa20388"
+        },
+        {
+            "type": "java",
             "name": "bee1172",
             "request": "launch",
             "mainClass": "BeeCrowd.bee1172",
