@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Testes",
+            "request": "launch",
+            "mainClass": "Testes",
+            "projectName": "java_fa20388"
+        },
+        {
+            "type": "java",
+            "name": "ProcurarMes",
+            "request": "launch",
+            "mainClass": "Exercicios_Aleatorios.ProcurarMes",
+            "projectName": "java_fa20388"
+        },
+        {
+            "type": "java",
             "name": "Aula42",
             "request": "launch",
             "mainClass": "Aulas_DevDojo.Aula42",
