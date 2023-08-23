@@ -3,6 +3,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Import_OS",
+            "request": "launch",
+            "mainClass": "Import_OS",
+            "projectName": "java_fa20388"
+        },
+        {
+            "type": "java",
+            "name": "CRUD",
+            "request": "launch",
+            "mainClass": "CRUD",
+            "projectName": "java_fa20388"
+        },
+        {
+            "type": "java",
+            "name": "TerminalClearExample",
+            "request": "launch",
+            "mainClass": "TerminalClearExample",
+            "projectName": "java_fa20388"
+        },
+        {
+            "type": "java",
             "name": "Testes",
             "request": "launch",
             "mainClass": "Testes",
