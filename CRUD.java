@@ -5,6 +5,7 @@ public class CRUD {
     private static Scanner scanner = new Scanner(System.in);
 
     static void menu() {
+        System.out.print("\u001b[2J\u001b[H");
         System.out.println("Escolha a opcao abaixo:");
         System.out.println("0 - Sair");
         System.out.println("1 - Inserir dados");
@@ -18,6 +19,7 @@ public class CRUD {
     private static int codigo = 0;
 
     static void opcao1() {
+        System.out.print("\u001b[2J\u001b[H");
         System.out.print("\nInsira o nome: ");
         nome = scanner.next();
         System.out.println("Seu nome é: " + nome);
@@ -32,10 +34,12 @@ public class CRUD {
     }
 
     static void opcao2() {
+        System.out.print("\u001b[2J\u001b[H");
         System.out.print("Seu nome atual é " + nome + ". Deseja mudar? [s/n]: ");
         String pergunta = scanner.next();
 
         if (pergunta.equalsIgnoreCase("s")) {
+            System.out.print("\u001b[2J\u001b[H");
             System.out.print("Insira seu novo nome: ");
             String novo_nome = scanner.next();
             nome = novo_nome;
@@ -46,6 +50,7 @@ public class CRUD {
             String pergunta_2 = scanner.next();
 
             if (pergunta_2.equalsIgnoreCase("s")) {
+                System.out.print("\u001b[2J\u001b[H");
                 System.out.print("Insira sua nova idade: ");
                 int nova_idade = scanner.nextInt();
                 idade = nova_idade;
@@ -58,17 +63,21 @@ public class CRUD {
     }
 
     static void opcao3() {
+        System.out.print("\u001b[2J\u001b[H");
         System.out.print("Coloque o código para mostrar o usuário: ");
         int pesquisa = scanner.nextInt();
 
         if (pesquisa == codigo) {
             System.out.println("Nome: "+nome+"   "+"Idade: "+idade);
+            System.out.print("1 para continuar: ");
+            pesquisa = scanner.nextInt();
         } else {
             System.out.println("Esse código não existe");
         }
     }
 
     static void opcao4() {
+        System.out.print("\u001b[2J\u001b[H");
         System.out.println("Informe o código: ");
         int pesquisa = scanner.nextInt();
 
@@ -77,7 +86,10 @@ public class CRUD {
             String resposta = scanner.next();
             
             if (resposta.equalsIgnoreCase("s")) {
+                System.out.print("\u001b[2J\u001b[H");
                 System.out.println("Cadastro excluído com sucesso!");
+                System.out.print("1 para continuar: ");
+                pesquisa = scanner.nextInt();
                 nome = "";
                 idade = 0;
                 codigo = 0;
