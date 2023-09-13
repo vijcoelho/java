@@ -13,7 +13,7 @@ public class ProdutoDao extends Produto{
         List<Produto> produtos = new ArrayList<Produto>();
         
         try {
-            Connection con = new loja().getConnection();
+            Connection con = new Loja().getConnection();
             PreparedStatement smt = con.prepareStatement("select * from produto");
             ResultSet rs = smt.executeQuery();
 
