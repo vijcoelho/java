@@ -3,7 +3,7 @@ package Exc_Classes;
 import java.util.Scanner;
 
 class Banco {
-    private String nome;
+    static String nome;
     private int saldo;
     private int num_conta;
     private Scanner scanner;
