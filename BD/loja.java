@@ -16,6 +16,5 @@ public class Loja {
         } catch (ClassNotFoundException e){
             throw new RuntimeException(e);
         } 
-        
     }
 }
