@@ -10,7 +10,7 @@ public class Loja {
         try {
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
             return DriverManager.getConnection(
-            "jdbc:sqlserver:\\SQLEXPRESS;databaseName=loja;integratedSecurity=true"
+            "jdbc:sqlserver://REGULUS;databaseName=loja;user=BD23623;password=BD23623"
             );
         } catch (SQLException e) {
             throw new RuntimeException(e);
