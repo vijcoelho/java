@@ -6,6 +6,7 @@ import java.sql.SQLException;
 
 public class Loja {
     public Connection getConnection() {
+        
         try {
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
             return DriverManager.getConnection(
