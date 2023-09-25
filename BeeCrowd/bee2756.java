@@ -11,6 +11,5 @@ public class bee2756 {
         System.out.println("     C   C");
         System.out.println("      B B");
         System.out.println("       A");
-        
     }
 }
