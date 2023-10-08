@@ -11,10 +11,10 @@ public class BubbleSort {
 
         for(int i = 0; i < vetor.length; i++) {
             for (int j = 0; j < i; j++) {
-                if(vetor[j] > vetor[j+1]) {
+                if(vetor[j] > vetor[j + 1]) {
                     int temp = vetor[j];
-                    vetor[j] = vetor[j+1];
-                    vetor[j+1] = temp;
+                    vetor[j] = vetor[j + 1];
+                    vetor[j + 1] = temp;
                 }
             }
         }
