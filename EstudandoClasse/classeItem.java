@@ -1,4 +1,4 @@
-package ListaExtra;
+package EstudandoClasse;
 
 import java.util.*;
 
@@ -22,7 +22,7 @@ class Item {
     }
 }
 
-public class exc1 {
+public class classeItem {
     public static void main(String[] args) {
         List<Item>itens=new ArrayList<>();
         Scanner scanner=new Scanner(System.in);

@@ -4,6 +4,11 @@ public class SelectionSort {
     public static void main(String[] args) {
         int[] vetor = {3,5,1,2,4};
 
+        System.out.print("Vetor desorganizado: ");
+        for (int i : vetor) {
+            System.out.print(i + " ");
+        }
+
         for (int i = 0; i < vetor.length; i++) {
             
             int menor = i;
@@ -17,8 +22,10 @@ public class SelectionSort {
             vetor[menor] = aux;
         }
 
+        System.out.println("");
+        System.out.print("Vetor organizado: ");
         for (int i : vetor) {
-            System.out.println(i);
+            System.out.print(i + " ");
         }
     }
 }
