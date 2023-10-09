@@ -1,5 +1,3 @@
-package LeetCode;
-
 import java.util.Scanner;
 import java.util.HashMap;
 
