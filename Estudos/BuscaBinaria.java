@@ -10,7 +10,6 @@ public class BuscaBinaria {
 
         while (esq <= dir) {
             int meio = (esq + dir) / 2;
-
             if (vetor[meio] == num) {
                 return true;
             } else if (vetor[meio] < num) {
@@ -19,7 +18,6 @@ public class BuscaBinaria {
                 dir = meio - 1;
             }
         }
-
         return false;
     }
 
@@ -34,7 +32,7 @@ public class BuscaBinaria {
         if (encontrado) {
             System.out.println(num + " foi encontrado no vetor.");
         } else {
-            System.out.println(num + " não foi encontrado no vetor.");
+            System.out.println(num + " nao foi encontrado no vetor.");
         }
         
         scanner.close();
