@@ -1,4 +1,4 @@
-package OrdenacaoVetor;
+package Estudos;
 
 public class SelectionSort {
     public static void main(String[] args) {
