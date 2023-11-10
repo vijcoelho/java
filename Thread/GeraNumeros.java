@@ -14,7 +14,7 @@ class GeraNumeros {
         System.out.println("Iniciando...");
         double tempo = System.currentTimeMillis();
         for (int i = 0; i < MAX_NUMBERS; i++) {
-            soma += Math.pow(semente.nextDouble(), 10);dfadasdadadada
+            soma += Math.pow(semente.nextDouble(), 10);
         }
         tempo = tempo - System.currentTimeMillis();
         System.out.println("Terminando: " + tempo/1000);
