@@ -15,7 +15,7 @@ public class CRUD {
     }
 
     private static String nome = " ";
-    private static int idade = 0;
+    private static int idade = 0:
     private static int codigo = 0;
 
     static void opcao1() {
