@@ -40,11 +40,19 @@ class Principal {
 
         int maior = vetor[0];
         
-        for(int i = quantElementos; i < quantElementos + 2; i++) {
-            if(maior < vetor[i + 1]) {
+        for(int i = 0; i < 9; i++) {
+            if(vetor[i] > maior) {
                 maior = vetor[i];
             }
         }
-        System.out.println("Maior elemento: ");
+        System.out.println("Maior elemento: " + maior);
+
+
+        int menor = vetor[0];
+        for(int i = 0; i < 9; i++) {
+            if(vetor[i] < menor) {
+                menor = vetor[i];
+            }   
+        }
     }
 }
